@@ -1,68 +1,79 @@
+# Gemini Clone
 
+Gemini Clone is a React application that simulates an AI-powered assistant, providing various functionalities like suggesting travel destinations, summarizing concepts, brainstorming ideas, and improving code readability.
 
-# GeminiClone
+## Table of Contents
 
-GeminiClone is a React-based application designed to provide users with personalized and interactive responses to various prompts. This project utilizes components, JSX, state management, and hooks to create a dynamic and user-friendly interface.
+- [Demo](#demo)
+- [Features](#features)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [License](#license)
+- [Contact](#contact)
+
+## Demo
+
+You can see a live demo of the application here: [Live Demo](https://saurabhdhumane.github.io/GeminiClone/)
 
 ## Features
 
-- **User Interaction**: Provides tailored responses based on user prompts.
-- **Responsive Design**: Ensures a seamless experience across different devices.
-- **Dynamic Content**: Uses React's state and props to manage and display content dynamically.
-- **Modern UI Elements**: Incorporates modern UI components such as cards, loaders, and icons.
+- **AI-Powered Assistance**: Use AI to get suggestions, summaries, brainstorming ideas, and code improvements.
+- **Interactive UI**: An intuitive and responsive user interface built with React.
+- **Prompt Handling**: Send prompts and get AI responses in real-time.
+- **Code Highlighting**: Responses include syntax highlighting for code snippets.
+- **Copy to Clipboard**: Easily copy code snippets with a click of a button.
 
 ## Installation
 
 1. Clone the repository:
-   ```bash
-   git clone https://github.com/saurabhdhumane/GeminiClone.git
-   cd GeminiClone
-   ```
+    ```bash
+    git clone https://github.com/saurabhdhumane/GeminiClone.git
+    cd GeminiClone
+    ```
 
-2. Install dependencies:
-   ```bash
-   npm install
-   ```
+2. Install the dependencies:
+    ```bash
+    npm install
+    ```
 
-3. Start the development server:
-   ```bash
-   npm start
-   ```
+3. Set up your API key:
+    - Rename `.env.example` to `.env`
+    - Add your Google Generative AI API key in the `.env` file:
+      ```env
+      REACT_APP_GOOGLE_API_KEY=your-api-key
+      ```
+
+4. Start the development server:
+    ```bash
+    npm start
+    ```
 
 ## Usage
 
-1. Open the application in your browser:
-   ```
-   http://localhost:3000
-   ```
-
-2. Interact with the app by entering prompts and receiving responses.
-
-## Code Structure
-
-- **Main Component**: Manages the main interface and user interactions.
-- **ResultDisplay Component**: Handles the display of results based on user inputs.
-- **Context**: Manages global state using React's context API.
+1. Open your browser and navigate to `http://localhost:3000`
+2. Interact with the AI by typing prompts in the input field and pressing "Enter" or clicking the send button.
+3. Explore the preset cards for quick interactions.
 
 ## Contributing
 
-Contributions are welcome! Please follow these steps:
+We welcome contributions! Please follow these steps:
 
-1. Fork the repository.
-2. Create a new branch (`git checkout -b feature/your-feature`).
-3. Commit your changes (`git commit -am 'Add some feature'`).
-4. Push to the branch (`git push origin feature/your-feature`).
-5. Create a new Pull Request.
+1. Fork the repository
+2. Create a new branch (`git checkout -b feature-branch`)
+3. Make your changes
+4. Commit your changes (`git commit -m 'Add some feature'`)
+5. Push to the branch (`git push origin feature-branch`)
+6. Open a pull request
 
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## Acknowledgements
+## Contact
 
-- React and its documentation
-- Vite for development setup
+If you have any questions or feedback, feel free to reach out:
 
----
+- **Email**: your-email@example.com
+- **GitHub**: [saurabhdhumane](https://github.com/saurabhdhumane)
 
-Feel free to modify the sections to better fit your project's specifics. Once you're ready, you can add this `README.md` file to your repository.
